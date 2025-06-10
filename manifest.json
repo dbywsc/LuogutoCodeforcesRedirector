@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Luogu to Codeforces Redirector",
+  "version": "1.0",
+  "description": "在洛谷CF题目页面添加跳转到Codeforces原题的按钮。",
+  "content_scripts": [
+    {
+      "matches": ["https://www.luogu.com.cn/problem/CF*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}
